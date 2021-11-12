@@ -19,7 +19,7 @@ def get_words(num):
 
 def guess_game():
     lowlimit = 1
-    uplimit = 1
+    uplimit = 100
     number = random.randint(lowlimit, uplimit)
     tries = 0
     delay_print("Very good, you have chosen Guessing game.\nNow, what is your name? ")
