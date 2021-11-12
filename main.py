@@ -108,10 +108,9 @@ def timing_game():
 
 
 def play_game():
-    delay_print("\n| GAME SELECTION |")
-    delay_print("\n\n1: Timing game - Computer picks random words, you need to type them as fast as you can!\n")
-    delay_print("2: Guess game - Computer picks a random number, you have to guess it!\n")
-    delay_print("Input 1 or 2 and press Enter to choose: ")
+    delay_print("\n| GAME SELECTION |\n\n1: Timing game - Computer picks random words, you need to type them as "
+                "fast as you can!\n2: Guess game - Computer picks a random number, you have to guess it!"
+                "\nInput 1 or 2 and press Enter to choose: ")
     choice = int(input())
     if choice == 1:
         timing_game()
